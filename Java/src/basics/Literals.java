@@ -1,9 +1,9 @@
-import java.sql.SQLOutput;
+package basics;
 
 public class Literals {
     public static void main(String[] args){
         System.out.println("all you need to know about literals");
-        //Literals -> constant value that can given to a variable
+        //basics.Literals -> constant value that can given to a variable
 
         int x = 7;//example, here--> 7 is a literal/constant value
 
@@ -109,5 +109,26 @@ public class Literals {
         // escape sequence are char literal (eq: '\n')
 
         // if you want to use ' or any other symbol in sout then use it with \ eg(\')
+
+        //------------------------------------------------------------------------------------
+
+        // from java 1.7 version --> we can define literal values in binary form(using 0b or 0B)
+
+        // eg: 0B1111--> for 15(cuz 1111 value is 15)
+
+        //Also from 1.7 we can use _ for integral value for readability ONLY BETWEEN THE DIGITS!!!
+
+        //!!! eg: for 100908 , we can use 10_09_08
+
+        //assignment of values(like byte var can be assigned with short) see below!!!
+
+        //byte --> short and short/char --> int --> long --> float --> double
+
+        //short and byte cannot be assigned with each other(one signed and another is unsigned)
+
+        // how long val can be assigned to float(4byte)?? --> cuz floating follow different
+        // memory representation tha n integral
+
+        // eg: float f = 10l; (VALID) --> sout will be 10.0
     }
 }

@@ -1,3 +1,5 @@
+package basics;
+
 public class DataTypes {
     public static void main(String[] args){
         System.out.println("Everything you need to know about data types");

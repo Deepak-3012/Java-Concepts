@@ -1,3 +1,5 @@
+package basics;
+
 public class Identifiers {
     //identifier -> it is nothing but used for identification
     public static void main(String[] args) {
